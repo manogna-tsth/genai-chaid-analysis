@@ -170,7 +170,7 @@ GenAI shopping assistants are becoming part of online shopping, but simply addin
 
 This project uses **real consumer survey data** to understand what actually influences people's behaviour and shows how hundreds of survey responses can be turned into clear, useful insights through data analysis.
 
-> 📌 **Data Note:** Individual survey responses are not publicly shared to protect participant privacy and research data. This repository contains only the analytical results.
+> **📌 Research Note**: This project is part of ongoing research. The respondent-level dataset and detailed SPSS outputs are not publicly shared. 
 
 
 
