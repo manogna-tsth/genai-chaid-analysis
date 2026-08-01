@@ -13,6 +13,7 @@ The project uses **survey analytics, reliability testing, descriptive statistics
 
 
 
+
 ## ✦ The Survey
 
 The study used a **5 point Likert scale survey** with responses from **366 people who had used Generative AI**.
@@ -21,13 +22,14 @@ The analysis focused on four main consumer outcomes:
 
 😊 **Satisfaction** → How happy and satisfied people are with the GenAI shopping assistant
 
-💭 **Behavioural Intention (BI)** → Whether a person is willing or plans to **use a GenAI shopping assistant**
+💭 **Behavioural Intention (BI)** → Whether a person is willing or plans to use a GenAI shopping assistant
 
-🛍️ **Patronage Intention** → Whether the GenAI assistant makes people more willing to **shop with or buy from the platform**
+🛍️ **Patronage Intention** → Whether the GenAI assistant makes people more willing to shop with or buy from the platform
 
-🔄 **Continuance Intention (CI)** → Whether a person who has already used it intends to **keep using it in the future**
+🔄 **Continuance Intention (CI)** → Whether a person who has already used it intends to keep using it in the future
 
-> **Simply put: BI = “Will I use it?” while CI = “Will I continue using it?”**
+**Simply put: BI = “Will I use it?” while CI = “Will I continue using it?”**
+
 
 
 
@@ -35,23 +37,25 @@ The analysis focused on four main consumer outcomes:
 
 A few key patterns stood out:
 
-👨 **58.5% were male**
+👨 Male respondents formed a larger share of the sample than female respondents
 
-🎓 **Students were the largest group**, followed by private sector employees
+🎓 Students were the largest group, followed by private sector employees
 
-📚 Most respondents were **undergraduates**, followed by postgraduates
+📚 Most respondents were undergraduates, followed by postgraduates
 
-🏙️ **Urban residents formed the largest group**
+🏙️ Urban residents formed the largest group
 
-🤖 **All 366 respondents had used Generative AI**
+🤖 All participants included in the study had experience using Generative AI
 
-🛍️ **Shopping goods were the most common category (48.9%)**, meaning products where people usually compare different options before buying
+🛍️ Shopping goods were the most commonly reported category, meaning products where people usually compare different options before buying
+
 
 
 
 ## 🔍 What Factors Were Studied?
 
 The study tested **10 factors** that could influence how people experience and respond to GenAI shopping assistants.
+
 
 ### 🛠️ Quality Factors
 
@@ -83,6 +87,7 @@ The study tested **10 factors** that could influence how people experience and r
 
 
 
+
 ## 🌳 CHAID Analysis
 
 The main technique used was **CHAID Decision Tree Analysis**.
@@ -91,30 +96,21 @@ In simple words, CHAID helped answer one main question:
 
 > **Which factors matter the most for each type of consumer behaviour?**
 
-Four decision trees were created, and each revealed a different strongest predictor.
+Four decision trees were created to study the factors influencing each consumer outcome.
 
-| Consumer Outcome | Strongest Predictor | Accuracy |
-|---|---|---:|
-| 😊 Satisfaction | Autotelic Experience | **78.4%** |
-| 🔄 Continuance Intention | Immersion | **75.4%** |
-| 🛍️ Patronage Intention | Social Credence | **79.2%** |
-| 💭 Behavioural Intention | Anthropomorphism | **73.2%** |
+The analysis showed that **different factors played important roles across Satisfaction, Continuance Intention, Patronage Intention and Behavioural Intention.**
+
 
 
 
 ## ✨ What Did We Learn?
 
-The most interesting finding was that **there was no single factor that explained everything.**
+The analysis showed that **there was no single factor that explained every consumer outcome.**
 
-🎮 **Enjoyment** mattered most for how satisfied people were. [Satisfaction]
-
-🌊 **Immersion** mattered most for whether they wanted to keep using the AI. [Continuance Intention]
-
-💬 **Social value** mattered most for whether they were willing to shop through the platform. [Patronage Intention]
-
-🤖 **Human like behaviour** mattered most for their intention to use the AI. [Behavioural Intention]
+Different aspects of the GenAI shopping experience contributed differently to **satisfaction, intention to use, willingness to shop through the platform and intention to continue using the technology.**
 
 Simply put, people respond to GenAI shopping assistants based on a combination of **how well they work, how they interact with users and how engaging the experience feels.**
+
 
 
 
@@ -122,9 +118,10 @@ Simply put, people respond to GenAI shopping assistants based on a combination o
 
 Before building the models, the survey was checked to make sure the responses were reliable and meaningful.
 
-The constructs showed **acceptable to excellent reliability**, with Cronbach's Alpha values ranging approximately from **0.75 to 0.92**.
+The constructs showed **acceptable to excellent reliability**, supporting their use in the further analysis.
 
-The overall responses toward GenAI shopping assistants were also positive, with **Behavioural Intention recording the highest average score (4.22 out of 5).**
+The descriptive analysis also provided an overall understanding of how respondents viewed the different aspects of GenAI shopping assistants.
+
 
 
 
@@ -135,6 +132,7 @@ A **Multilayer Perceptron (MLP)** neural network was also used as an additional 
 Think of it as a second way of checking the patterns in the data.
 
 **CHAID** helped show clear decision paths and consumer groups, while **MLP** helped study more complex relationships between the factors.
+
 
 
 
@@ -158,9 +156,11 @@ MLP Neural Network Analysis
 
 
 
+
 ## 🛠️ Tools & Techniques
 
 **IBM SPSS Statistics • Survey Analytics • Likert Scale Analysis • Descriptive Statistics • Cronbach's Alpha • CHAID Decision Trees • Multilayer Perceptron (MLP)**
+
 
 
 
@@ -168,9 +168,9 @@ MLP Neural Network Analysis
 
 GenAI shopping assistants are becoming part of online shopping, but simply adding AI does not mean people will enjoy, trust or continue using it.
 
-This project uses **real consumer survey data** to understand what actually influences people's behaviour and shows how hundreds of survey responses can be turned into clear, useful insights through data analysis.
+This project uses real consumer survey data to understand what actually influences people's behaviour and shows how hundreds of survey responses can be turned into clear, useful insights through data analysis.
 
-> **📌 Research Note**: This project is part of ongoing research. The respondent-level dataset and detailed SPSS outputs are not publicly shared. 
+📌 **Research Note:** This project is part of ongoing research. The respondent-level dataset and detailed SPSS outputs are not publicly shared.
 
 
 
